@@ -8,6 +8,9 @@
   "contributes": {
     "sidebarLeftPages": [
       { "identifier": "test-page", "title": "Test Page", "icon": "star", "component": "MyPage.qml" }
+    ],
+    "sidebarRightBottom": [
+      { "identifier": "test-widget", "title": "Test Widget", "icon": "data_array", "component": "MyWidget.qml" }
     ]
   }
 }
