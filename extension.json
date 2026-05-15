@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "you",
   "icon": "widgets",
-  "coverArt": "cover.png",
+  "shapeString": "Cookie12Sided",
   "contributes": {
     "sidebarLeftPages": [
       { "identifier": "test-page", "title": "Test Page", "icon": "star", "component": "MyPage.qml" }
