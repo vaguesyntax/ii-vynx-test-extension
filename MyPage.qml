@@ -1,4 +1,5 @@
 import QtQuick
+import qs.services
 import qs.modules.common.widgets
 import QtQuick.Layouts
 
