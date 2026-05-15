@@ -1,0 +1,13 @@
+{
+  "name": "Test Extension",
+  "description": "Does cool stuff",
+  "version": "1.0.0",
+  "author": "you",
+  "icon": "widgets",           // Material Symbol icon name
+  "coverArt": "cover.png",     // optional, shown in settings list
+  "contributes": {
+    "sidebarLeftPages": [
+      { "identifier": "test-page", "title": "Test Page", "icon": "star", "component": "MyPage.qml" }
+    ]
+  }
+}
