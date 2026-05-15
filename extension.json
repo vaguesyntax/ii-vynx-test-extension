@@ -11,6 +11,9 @@
     ],
     "sidebarRightBottom": [
       { "identifier": "test-widget", "title": "Test Widget", "icon": "data_array", "component": "MyWidget.qml" }
+    ],
+    "services": [
+      { "id": "testService", "qml": "TestService.qml" }
     ]
   }
 }
