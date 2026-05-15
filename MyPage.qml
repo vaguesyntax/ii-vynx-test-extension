@@ -16,6 +16,11 @@ Item {
     }
     TestSpace {
       color: "green"
+      StyledText {
+        text: ExtensionServices.get("ii-vynx-test-extension", "testService").testText
+        font.pixelSize: 20
+        color: "white"
+      }
     }
     TestSpace {
       color: "blue"
