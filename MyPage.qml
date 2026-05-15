@@ -8,6 +8,6 @@ Item {
     color: "white"
   }
   TestSpace {
-    anchors.fill: parent
+    anchors.centerIn: parent
   }
 }
