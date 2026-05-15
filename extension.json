@@ -14,6 +14,9 @@
     ],
     "services": [
       { "id": "testService", "qml": "TestService.qml" }
+    ],
+    "barComponents": [
+      { "identifier": "test-bar-component", "title": "Test Bar Component", "icon": "backspace", "qml": "TestBarComponent.qml", "verticalQml": "TestBarComponentVertical.qml" }
     ]
   }
 }
