@@ -1,8 +1,13 @@
 import QtQuick
+import qs.modules.common.widgets
 
 Item {
-  Text {
+  StyledText {
     anchors.centerIn: parent
     text: "testing something heheh"
+    color: "white"
+  }
+  TestSpace {
+    
   }
 }
