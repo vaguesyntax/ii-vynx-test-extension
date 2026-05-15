@@ -8,6 +8,7 @@ Item {
     color: "white"
   }
   TestSpace {
-    anchors.centerIn: parent
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
   }
 }
