@@ -1,8 +1,9 @@
 import QtQuick
+import qs.modules.common
 
 Item {
-    height: 100
-    width: 100
+    implicitHeight: 100
+    implicitWidth: Appearance.sizes.verticalBarWidth
     Rectangle {
         anchors.fill: parent
         color: "blue"
