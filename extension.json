@@ -11,6 +11,9 @@
     ],
     "sidebarRightBottom": [
       { "identifier": "test-widget", "title": "Test Widget", "icon": "data_array", "component": "MyWidget.qml" }
+    ],
+    "overlayWidgets": [
+      { "identifier": "test-overlay", "title": "Test Overlay", "icon": "box", "component": "MyOverlay.qml" }
     ]
   }
 }
