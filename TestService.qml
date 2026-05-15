@@ -1,6 +1,6 @@
 import QtQuick
 
-Item {
+QtObject {
     id: root
 
     property string testText: "BRUHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhhhhhhhhhhhhhhhhhHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhh"
